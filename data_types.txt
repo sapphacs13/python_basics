@@ -1,0 +1,8 @@
+Primitive data types:
+* int/short/long (numbers)
+* char
+* doubles/floats
+* booleans (True/False)
+
+Other data types:
+* strings
