@@ -21,8 +21,14 @@ n = 5
 s3 = s + str(5) + s2
 print s3
 # this will print 'I want to eat5cookies" because we did not put spaces in :) oops
+
+
+
+
+
+#ignore the rest because it's not working
 # another way (I am now adding s + s_num + s2 and they will all be strings):
-s_num = "" + n # this means s_num is now '5'
-s3 = s + s_num + s2
-print s3
+#s_num = "" + n # this means s_num is now '5'
+#s3 = s + s_num + s2
+#print s3
 # this will still print 'I want to eat5cookies'

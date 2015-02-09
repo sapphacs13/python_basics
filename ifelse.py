@@ -18,9 +18,13 @@ def func2(a, b):
     elif (b < a):
         return "b is smaller than a. b equals: " + str(b)
     else:
-        return "a and b boh equal: " + str(a)
-
+        return "a and b both equal: " + str(a)
+print "Testing func() of -2, 5, and 15:"
 print func(-2)
 print func(5)
 print func(15)
 print "---------------"
+print "Testing func2() of (0, 10), (10, 0), and (5, 5)"
+print func2(0, 10)
+print func2(10, 0)
+print func2(5, 5)
