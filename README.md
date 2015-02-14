@@ -1,3 +1,3 @@
 # Python Basics for new CStuy students
 
-Notes and code from the first day
+Notes and code from our class discussions
