@@ -4,7 +4,7 @@ def Insultlist():
     list1 = ['grumpily', 'bitterly', 'arrogantly', 'foolishly', 'heartlessly', 'monstrously', 'nastily', ' obnoxiously', 'redundantly']
     list2 = ['ignorant', 'lousy', 'stubborn', 'slimy', 'arrogant', 'rusty', 'careless', 'vile', 'dirty', 'crude', 'poor', 'fat', 'ugly', 'stupid']
     list3 = ['rat', 'husky', 'brat', 'loser', 'airhead', 'chicken', 'pirate']
-    list1code= list1[random.randint(0,15)]
+    list1code= list1[random.randint(0,8)]
     list2code= list2[random.randint(0,7)]
     list3code= list3[random.randint(0,6)]
     string= "You are a " + list1code + " " + list2code + " " + list3code
@@ -27,9 +27,9 @@ c = raw_input( '\nDo you want a Compliment or an Insult? Type c for compliment o
 while c != 's':
     if c== 'i':
         print Insultlist()
-    if c== 'c':
+    elif c== 'c':
         print ComplimentList()
-    if c== 'r':
+    elif c== 'r':
         rand= random.randint(0,1)
         if rand == 1:
             print Insultlist()
