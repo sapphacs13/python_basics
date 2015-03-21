@@ -1,8 +1,8 @@
 import random
 
 def Insultlist():
-    list1 = ['dirty', 'crude', 'poor', 'fat', 'crude', 'ugly', 'stupid', 'grumpily', 'bitterly', 'arrogantly', 'foolishly', 'heartlessly', 'monstrously', 'nastily', ' obnoxiously', 'redundantly']
-    list2 = ['ignorant', 'lousy', 'stubborn', 'slimy', 'arrogant', 'rusty', 'careless', 'vile']
+    list1 = ['grumpily', 'bitterly', 'arrogantly', 'foolishly', 'heartlessly', 'monstrously', 'nastily', ' obnoxiously', 'redundantly']
+    list2 = ['ignorant', 'lousy', 'stubborn', 'slimy', 'arrogant', 'rusty', 'careless', 'vile', 'dirty', 'crude', 'poor', 'fat', 'ugly', 'stupid']
     list3 = ['rat', 'husky', 'brat', 'loser', 'airhead', 'chicken', 'pirate']
     list1code= list1[random.randint(0,15)]
     list2code= list2[random.randint(0,7)]
