@@ -38,9 +38,7 @@ def Personfeatures():
             height = raw_input('Please enter height in number.  Try again: ')
         else:
             break
-    
-    aTuple = ("Your name is "+ person ,"Your age is "+ age,"You are a "+ gender,"You are "+ weight +" pounds", "You are "+ height +" inches high")
-    aList = list(aTuple)
-    return aList
+
+    return ("Your name is " + person + "Your age is " + age + "You are a " + gender + "You are " + weight + " pounds" + "You are " + height + " inches high")
 
 print (Personfeatures())
