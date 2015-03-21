@@ -20,10 +20,21 @@ def ComplimentList():
     string="You are a " + list1code + " " + list2code + " " + list3code
     return string
 
-c = raw_input( '\nDo you want a Compliment or an Insult? Type c for compliment or i for insult or s to stop the program \n')
+
+
+
+c = raw_input( '\nDo you want a Compliment or an Insult? Type c for compliment or i for insult or r for random or s to stop the program \n')
 while c != 's':
     if c== 'i':
         print Insultlist()
     if c== 'c':
         print ComplimentList()
+    if c== 'r':
+        rand= random.randint(0,1)
+        if rand == 1:
+            print Insultlist()
+        else:
+            print ComplimentList()
+    else:
+        print "\nThat is not a command. Please enter c, i, r, or s."
     c = raw_input('\nDo you want a Compliment or an Insult? Type c for compliment or i for insult or s to stop the program \n')
