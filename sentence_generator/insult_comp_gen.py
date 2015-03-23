@@ -4,9 +4,9 @@ def Insultlist():
     list1 = ['grumpily', 'bitterly', 'arrogantly', 'foolishly', 'heartlessly', 'monstrously', 'nastily', ' obnoxiously', 'redundantly']
     list2 = ['ignorant', 'lousy', 'stubborn', 'slimy', 'arrogant', 'rusty', 'careless', 'vile', 'dirty', 'crude', 'poor', 'fat', 'ugly', 'stupid']
     list3 = ['rat', 'husky', 'brat', 'loser', 'airhead', 'chicken', 'pirate']
-    list1code= list1[random.randint(0,8)]
-    list2code= list2[random.randint(0,7)]
-    list3code= list3[random.randint(0,6)]
+    list1code= list1[random.randint(0, len(list1) - 1)]
+    list2code= list2[random.randint(0, len(list2) - 1)]
+    list3code= list3[random.randint(0, len(list3) - 1)]
     string= "You are a " + list1code + " " + list2code + " " + list3code
     return string
 
@@ -14,9 +14,9 @@ def ComplimentList():
     list1= ['beautifully', 'cheerfully', 'fantastically', 'devotedly', 'happily', 'gleefully', 'gratefully', 'magically', 'perfectly']
     list2= ['courteous', 'amiable', 'compassionate', 'charming', 'energetic','gentle', 'patient', 'reliable', 'sympathetic','thoughtful']
     list3= ['person', 'individual', 'unicorn', 'fellow', 'bro', 'dude']
-    list1code= list1[random.randint(0,8)]
-    list2code= list2[random.randint(0,9)]
-    list3code= list3[random.randint(0,5)]
+    list1code= list1[random.randint(0, len(list1) - 1)]
+    list2code= list2[random.randint(0, len(list2) - 1)]
+    list3code= list3[random.randint(0, len(list3) - 1)]
     string="You are a " + list1code + " " + list2code + " " + list3code
     return string
 
