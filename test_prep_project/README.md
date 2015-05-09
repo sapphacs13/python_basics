@@ -27,11 +27,9 @@
   * Luke: Basic structure for input/output
 * Week 2 (May 9 - May 15)
   * Suggestions
-* Week 3 (May 16 - May 22)
+* Week 3 (May 16)
   * Predictions
   * Buffer Time
-* Week 4 (May 23 - May 29)
-  * Time for finishing touches and implemetation of stretch goals
 
 ##Completed Goals
 * Week 1
